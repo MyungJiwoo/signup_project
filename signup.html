@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome!</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Register With Us</h1>
+
+            <form class="js-form" autocomplete="off">
+
+                <div class="username-mar">
+                    <h2>Username</h2>
+                    <input type="text" class="js-username username" placeholder="Enter username">
+                </div>
+                <div class="js-userError username-error">No spaces allowed</div>
+
+                <div class="email-mar">
+                    <h2>Email</h2>
+                    <input type="text" class="js-email email" placeholder="Enter email">
+                </div>
+                <div class="js-emailError mail-error">Email is not valid</div>
+
+                <div class="pw-mar">
+                    <h2>Password</h2>
+                    <input type="password" class="js-pw pw" placeholder="Enter password">
+                </div>
+                <div class="js-pwError pw-error">Password must be at least 6 characters</div>
+
+                <div class="cpw-mar">
+                    <h2>Confirm Password</h2>
+                    <input type="password" class="js-cpw cpw" placeholder="Enter confirm password">
+                </div>
+                <div class="js-cpwError cpw-error">Passwords do not match</div>
+
+                <div class="btn-mar"><input type="submit" class="js-btn btn" value="Submit"></div>
+                
+            </form>
+
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
